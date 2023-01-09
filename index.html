@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vacation Rentals</title>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Our Vacation Rentals</h1> <hr> <hr>
+    <!-- <h2>Present in more than 5 international locations</h2> -->
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#beach-houses">Beach Houses</a></li>
+      <li><a href="#mountain-cabins">Mountain Cabins</a></li>
+      <li><a href="#city-apartments">City Apartments</a></li>
+    </ul>
+    <hr>
+  </nav>
+  <main>
+    <h2 id="beach-houses">Beach Houses</h2>
+    <img src="hotel-img/beachhouse.avif" alt="beachhouse" width = "521px">
+    <p>Escape to the beach with one of our beautiful beach houses. Each house is fully furnished and equipped with everything you need for a relaxing vacation.</p>
+    <ul>
+      <li>3 bedroom, 2 bath house with private pool - 4000Rs/night</li>
+      <li>2 bedroom, 1.5 bath house with ocean view - 2500rs/night</li>
+      <li>1 bedroom, 1 bath house steps from the beach - 1500rs/night</li>
+    </ul>
+    <h2 id="mountain-cabins">Mountain Cabins</h2>
+    <img src="hotel-img/mountain cabin.avif" alt="mountain-cabins" width = "521px">
+    <p>Get away from it all in one of our cozy mountain cabins. Each cabin is located in a secluded area, perfect for a peaceful retreat.</p>
+    <ul>
+      <li>2 bedroom, 2 bath cabin with hot tub - 2000rs/night</li>
+      <li>1 bedroom, 1 bath cabin with fireplace - 1000rs/night</li>
+      <li>Studio cabin with kitchenette - 750rs/night</li>
+    </ul>
+    <h2 id="city-apartments">City Apartments</h2>
+    <img src="hotel-img/city-apartment.jpg" alt="city-apartments" width = "521px">
+    <p>Experience the city life with one of our stylish apartments. Each apartment is located in the heart of the city and is within walking distance of restaurants, shops, and attractions.</p>
+    <ul>
+      <li>2 bedroom, 2 bath apartment with rooftop deck - 2300rs/night</li>
+      <li>1 bedroom, 1 bath apartment with city view - 2100rs/night</li>
+      <li>Studio apartment with shared courtyard - 1000rs/night</li>
+    </ul>
+    <hr>
+    <h3>!!BOOK HERE!!</h3>
+    <p>We are currently present in more than 5 international locations</p>
+
+    <p>For how many people?</p>
+    <select name="People" id="People">
+        <option value="no-value">Select</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4+">4+</option>
+    </select>
+    <br>
+
+
+    <p>Select location where you want to rent</p>
+    <label for="locationida">
+        <input type="radio" name="location" value = "Amsterdam" id="amsterdam">Amsterdam
+    </label>
+    <label for="locationidb">
+        <input type="radio" name="location" value = "Brooklyn" id="Brooklyn">Brooklyn
+    </label>
+    <label for="locationidc">
+        <input type="radio" name="location" value = "London" id="London">London
+    </label>
+    <label for="locationidd">
+        <input type="radio" name="location" value = "Paris" id="Paris">Paris
+    </label>
+    <label for="locationide">
+        <input type="radio" name="location" value = "Tokyo" id="Tokyo">Tokyo
+    </label>
+    <br>
+    <p>Which type of house would you like to rent?</p>
+    <label for="beach">
+        <input type="radio" name="type" value="beach-houses" id="beach">Beach House
+    </label>
+    <label for="mountain">
+        <input type="radio" name="type" value="mountain-cabins" id="mountain">Mountain Cabin
+    </label>
+    <label for="city-apartments">
+        <input type="radio" name="type" value="city-apartments" id="city-apartments">City Apartment
+    </label>
+    <br>
+    <p>Enter your phone number so we can get back to you</p>
+    <form action="text.php"></form>
+    <input type="text" placeholder="Enter your phone number"> <br>
+  </main>
+  <footer>
+    <p>For any more queries you can contact us at:</p>
+    <a href="+91-8929234169">Phone</a><br>
+    <a href="mailto:yashshuklasocial@gmail.com" target = "_blank">Email</a>
+    <p>Copyright 2023 Vacation Rentals</p>
+  </footer>
+</body>
+</html>
